@@ -1,0 +1,270 @@
+.slider {
+    position:absolute;
+    width: 100%;
+    height: 500px;
+    top: 0;
+}
+
+.imagesCSS {
+    position: absolute;
+    width: 50%;
+    height: 100%vh;
+    border-top: 10px solid #000000;
+}
+
+.imagesCSS1 {
+    position: absolute;
+    width: 50%;
+    height: 100%vh;
+    margin-left: 658px;
+    border-top: 10px solid #000000;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    height: 70px;   
+    z-index: 1000;
+    margin-top: 50px;
+}
+
+.header p {
+    position: absolute;
+    left: 70px;
+    font-family: poppins;
+    color: #a56564;
+    font-size: 25px;
+    font-weight: 600; 
+    margin-top: 20px;
+}
+
+.nav-container {
+    margin-left: 160px;
+}
+
+.nav-container a {
+    display:inline-block;    
+    justify-content: space-around;
+    line-height: 80px;
+    text-decoration: none;
+    margin-left: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+
+
+#about {
+    position: relative;
+    text-align: center;
+    margin-top: 800px;
+    margin-bottom: 200px;
+}
+
+#about h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    margin-top: 100px;
+    padding-top: 150px;
+}
+
+#about .p1 {
+    display:block;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+#about .p2 {
+    display:block;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+#about .p3 {
+    display:block;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.footer-container {
+    position: relative;
+    text-align: center;
+}
+
+
+.nav-container-footer {
+    position: relative;
+    margin-bottom: 20px;
+    
+}
+
+.nav-container-footer a {
+    margin-left: 50px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: rgb(36, 36, 36);
+}
+
+.nav-container-footer a:hover {
+    color: #4d4d4d;
+}
+
+.footer-container hr {
+    bottom: 10px;
+}
+
+.logo-C-footer {
+    position: relative;
+}
+
+.logo-C-footer p {
+    position: absolute;
+    left: 50px;
+    bottom: 0px;
+    font-size: 11px;
+    color: #383838;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:1px;
+}
+
+
+.social-icons {
+    position: absolute;
+    display: inline-block;
+    right: 10px;
+    bottom: 30px;
+    margin-right: 20px;
+}
+.social-icons a{
+    margin-right: 10px;
+    color: rgb(27, 27, 27);
+}
+
+.social-icons a:hover {
+    color: #3f3f3f;
+}
+
+.logo-C-footer h1 {
+    bottom: 20px;
+    font-family: poppins;
+    color: #a56564;
+}
+
+
+
+
+
+
+
+
+
+/*this is for allProducts.html  */
+.products-container {
+    position: relative;
+    margin-left: 5px;
+    margin-top: 50px;
+    margin-bottom: 1000px;
+}
+.img-container {
+    position: relative;
+    height: 300px;
+    width: 180px;
+    margin-left: 70px;
+    margin-top: 50px;
+    text-align: center;
+    float: left;
+}
+
+.img-container img {
+    position: inherit;
+    height: 80%;
+    width: 100%;
+    top: 0;
+    border-bottom: 1px solid black;
+}
+
+.hover-product {
+    position:absolute; 
+    height: 80%; 
+    width: 100%;
+    top: 0;
+    text-align: center;
+    opacity: 0;
+}
+
+.hover-product:hover {
+    opacity: 1;
+}
+
+.hover-product a {
+    background-color: white;
+    color: black;
+    font-family: poppins;
+    font-weight: 1000;
+    border: 1px solid white;
+    border-radius: 5%;
+    padding: 8px 20px;
+    text-align: center;    
+    display:inline-block;
+    text-decoration: none ;
+    margin: 0 auto;
+    margin-top: 55% ;
+}
+
+.details-container {
+    position: absolute;
+    bottom: 0%;
+    width: 70%;
+    margin-left: 2px;
+}
+
+.details-container p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    line-height: 0px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    float: left;
+    margin-right: 20px;
+}
+
+.header-allp {
+    position: sticky;
+    top: 0;
+    height: 70px;   
+    z-index: 1000;
+    margin-top: 50px;
+}
+
+.header-allp p {
+    position: absolute;
+    left: 70px;
+    font-family: poppins;
+    color: #a56564;
+    font-size: 25px;
+    font-weight: 600; 
+    margin-top: 20px;
+}
+
+.nav-container-allp {
+    margin-left: 160px;
+}
+
+.nav-container-allp a {
+    display:inline-block;    
+    justify-content: space-around;
+    line-height: 80px;
+    text-decoration: none;
+    margin-left: 140px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: black;
+}
