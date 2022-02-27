@@ -222,7 +222,7 @@
 .details-container {
     position: absolute;
     bottom: 0%;
-    width: 70%;
+    width: 100%;
     margin-left: 2px;
 }
 
@@ -233,7 +233,7 @@
     font-weight: 600;
     color: rgb(0, 0, 0);
     float: left;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 .header-allp {
